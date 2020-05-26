@@ -28,22 +28,22 @@ public class UsuarioController {
 	//@GetMapping
 	public List<UsuariosBean> getAllUsuarios() throws Exception{
 		
-//		List<UsuariosBean> lstBean = null;
-//
-//		lstBean = usuarioService.getAll();
+		List<UsuariosBean> lstBean = null;
+
+		lstBean = usuarioService.getAll();
+		
+		return lstBean;
+		
+//		List<UsuariosBean> lstBeann = new  ArrayList<UsuariosBean>();
+//		UsuariosBean bean = new UsuariosBean ();
+//		bean.setIdUsuario(1);
+//		bean.setNombre("Oscar");
+//		bean.setApellidos("Romero");
+//		bean.setEdad(25);
+//		lstBeann.add(bean); 
+//	
 //		
-//		return lstBean;
-		
-		List<UsuariosBean> lstBeann = new  ArrayList<UsuariosBean>();
-		UsuariosBean bean = new UsuariosBean ();
-		bean.setIdUsuario(1);
-		bean.setNombre("Oscar");
-		bean.setApellidos("Romero");
-		bean.setEdad(25);
-		lstBeann.add(bean); 
-	
-		
-		return lstBeann;
+//		return lstBeann;
 		
 	}
 	@RequestMapping("/guardarUsuario")
