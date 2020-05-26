@@ -11,10 +11,10 @@
  Target Server Version : 50617
  File Encoding         : 65001
 
- Date: 26/05/2020 03:38:42
+ Date: 26/05/2020 14:56:00
 */
 
-Create database app_web
+Create database app_web;
 use app_web
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
@@ -24,11 +24,11 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 DROP TABLE IF EXISTS `catalogo_usuarios`;
 CREATE TABLE `catalogo_usuarios`  (
-  `idUsuario` int(11) NOT NULL AUTO_INCREMENT,
+  `id_usuario` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(50) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
   `apellidos` varchar(50) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
   `edad` int(11) NOT NULL,
-  PRIMARY KEY (`idUsuario`) USING BTREE
+  PRIMARY KEY (`id_usuario`) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Compact;
 
 -- ----------------------------
