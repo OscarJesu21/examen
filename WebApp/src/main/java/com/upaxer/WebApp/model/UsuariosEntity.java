@@ -5,13 +5,15 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
-@Entity(name ="catalogo_usuarios")
+@Entity
+@Table(name ="catalogo_usuarios")
 public class UsuariosEntity {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name = "idUsuario" , unique=true, nullable=false)
+	@Column(name = "id_usuario" , unique=true, nullable=false)
 	private Integer idUsuario;
 	
 	@Column(name="nombre")
@@ -23,6 +25,7 @@ public class UsuariosEntity {
 	@Column(name="edad")
 	private int edad;
 
+	
 	public Integer getIdUsuario() {
 		return idUsuario;
 	}
