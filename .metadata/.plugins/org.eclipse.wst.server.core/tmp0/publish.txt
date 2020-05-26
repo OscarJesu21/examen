@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue May 26 13:02:34 CDT 2020
+org.eclipse.jst.jee.server\:WebApp=C\:\\Users\\oscar\\Desktop\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\WebApp
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\oscar\\.m2\\repository\\org\\springframework\\spring-web\\5.2.6.RELEASE\\spring-web-5.2.6.RELEASE.jar=C\:\\Users\\oscar\\Desktop\\sts-bundle\\pivotal-tc-server\\instances\\base-instance\\wtpwebapps\\WebApp\\WEB-INF\\lib\\spring-web-5.2.6.RELEASE.jar
