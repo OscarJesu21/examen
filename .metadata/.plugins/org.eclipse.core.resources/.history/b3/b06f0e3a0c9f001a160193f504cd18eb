@@ -1,0 +1,9 @@
+package com.upaxer.WebApp.repository;
+
+import org.springframework.data.repository.Repository;
+
+import com.upaxer.WebApp.model.UsuariosEntity;
+
+public interface UsuarioRepository extends Repository<UsuariosEntity, Integer>{
+
+}

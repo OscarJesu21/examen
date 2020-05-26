@@ -1,0 +1,5 @@
+package com.upaxer.WebApp.model;
+
+public class UsuarioHelper {
+
+}

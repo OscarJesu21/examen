@@ -1,0 +1,15 @@
+package com.upaxer.WebApp.service;
+
+import java.util.List;
+
+import com.upaxer.WebApp.model.UsuariosEntity;
+
+public interface personaService {
+
+
+	public List<UsuariosEntity> getAll() throws Exception;
+	public  UsuariosEntity save(UsuariosEntity entity)throws Exception;
+	public UsuariosEntity update(UsuariosEntity entity)throws Exception;
+	public UsuariosEntity delete(int id)throws Exception;
+//	public UsuariosEntity findById(int Id)throws Exception;
+}

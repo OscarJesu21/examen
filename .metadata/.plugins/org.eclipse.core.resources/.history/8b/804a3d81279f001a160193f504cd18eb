@@ -1,0 +1,16 @@
+package com.upaxer.WebApp.service;
+
+import java.util.List;
+
+import com.upaxer.WebApp.model.UsuariosBean;
+
+
+public interface UsuarioService {
+
+
+	public UsuariosBean saveUsuario(UsuariosBean bean);
+	public List<UsuariosBean> getAll();
+	public UsuariosBean updatePersona(UsuariosBean bean);
+	public UsuariosBean deletePersona(int id);
+
+}
